@@ -1,0 +1,779 @@
+2026-07-22 21:49:12 INFO study_tracker Starting Study Tracker Pro
+2026-07-22 21:51:10 INFO study_tracker Starting Study Tracker Pro
+2026-07-22 21:52:53 INFO study_tracker Starting Study Tracker Pro
+2026-07-22 21:53:24 INFO study_tracker Starting Study Tracker Pro
+2026-07-22 22:17:47 INFO study_tracker Starting Study Tracker Pro
+2026-07-22 23:59:53 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 00:28:11 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 00:37:05 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 11:25:44 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 11:26:20 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 11:31:55 ERROR study_tracker Unhandled error during _load_tasks_data
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 289, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\task.py", line 1227, in _load_tasks_data
+    progress = int(task[7] or 0) if len(task) > 7 and task[7] is not None else 0
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2026-07-23'
+2026-07-23 13:12:07 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 13:13:58 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 13:15:39 ERROR study_tracker Unhandled error during _load_tasks_data
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 289, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\task.py", line 1227, in _load_tasks_data
+    progress = int(task[7] or 0) if len(task) > 7 and task[7] is not None else 0
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2026-07-23'
+2026-07-23 13:16:54 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 13:19:18 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 22:56:38 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 23:47:17 INFO study_tracker Starting Study Tracker Pro
+2026-07-23 23:51:38 ERROR study_tracker Unhandled error during _load_tasks_data
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 289, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\task.py", line 1227, in _load_tasks_data
+    progress = int(task[7] or 0) if len(task) > 7 and task[7] is not None else 0
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2026-07-23'
+2026-07-24 01:52:40 INFO study_tracker Starting Study Tracker Pro
+2026-07-24 01:53:01 INFO study_tracker Starting Study Tracker Pro
+2026-07-24 01:53:40 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-24 02:04:04 INFO study_tracker Starting Study Tracker Pro
+2026-07-24 02:04:53 ERROR study_tracker Unhandled error during _load_tasks_data
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 289, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\task.py", line 1227, in _load_tasks_data
+    progress = int(task[7] or 0) if len(task) > 7 and task[7] is not None else 0
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2026-07-23'
+2026-07-24 02:05:07 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-24 02:05:13 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-24 02:29:19 INFO study_tracker Starting Study Tracker Pro
+2026-07-24 02:31:58 INFO study_tracker Starting Study Tracker Pro
+2026-07-24 02:39:18 INFO study_tracker Starting Study Tracker Pro
+2026-07-24 02:54:07 INFO study_tracker Starting Study Tracker Pro
+2026-07-24 02:57:49 INFO study_tracker Starting Study Tracker Pro
+2026-07-24 03:00:44 INFO study_tracker Starting Study Tracker Pro
+2026-07-24 03:01:43 ERROR study_tracker Unhandled error during _load_tasks_data
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 289, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\task.py", line 1227, in _load_tasks_data
+    progress = int(task[7] or 0) if len(task) > 7 and task[7] is not None else 0
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2026-07-23'
+2026-07-24 03:02:07 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-24 03:02:38 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-24 03:42:19 INFO study_tracker Starting Study Tracker Pro
+2026-07-24 03:43:33 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "c:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-24 03:43:43 ERROR study_tracker Unhandled error during _load_tasks_data
+Traceback (most recent call last):
+  File "c:\Users\User\Desktop\Python Study Tracker\utils.py", line 289, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\Python Study Tracker\task.py", line 1227, in _load_tasks_data
+    progress = int(task[7] or 0) if len(task) > 7 and task[7] is not None else 0
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2026-07-23'
+2026-07-25 16:45:54 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 16:53:12 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 16:53:24 ERROR study_tracker Unhandled error during _load_tasks_data
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 289, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\task.py", line 1227, in _load_tasks_data
+    progress = int(task[7] or 0) if len(task) > 7 and task[7] is not None else 0
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2026-07-23'
+2026-07-25 17:10:29 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 17:10:51 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 17:11:01 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 17:11:20 ERROR study_tracker Unhandled error during _load_tasks_data
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\task.py", line 1227, in _load_tasks_data
+    progress = int(task[7] or 0) if len(task) > 7 and task[7] is not None else 0
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2026-07-23'
+2026-07-25 17:13:22 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 17:16:48 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 17:32:38 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 17:33:00 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 17:43:47 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 17:44:36 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 17:47:03 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 18:20:15 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 18:22:08 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 18:22:56 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 18:23:46 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 18:31:41 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 18:44:57 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 19:02:38 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 19:03:22 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 19:06:12 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 422, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 23:28:55 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 23:40:57 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 23:44:06 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 23:44:44 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-25 23:53:00 INFO study_tracker Starting Study Tracker Pro
+2026-07-25 23:54:42 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-26 00:11:27 INFO study_tracker Starting Study Tracker Pro
+2026-07-26 00:25:11 INFO study_tracker Starting Study Tracker Pro
+2026-07-26 00:29:13 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-26 01:43:51 INFO study_tracker Starting Study Tracker Pro
+2026-07-26 01:44:52 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-26 02:12:57 INFO study_tracker Starting Study Tracker Pro
+2026-07-26 02:25:37 INFO study_tracker Starting Study Tracker Pro
+2026-07-26 02:28:28 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 13:47:24 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 14:17:41 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 14:29:01 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 14:33:39 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 14:34:20 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 16:09:16 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 16:11:55 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 16:25:13 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 16:26:26 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 16:27:18 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 16:40:08 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 16:41:26 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 16:50:48 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 17:08:47 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 17:13:44 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 17:22:06 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 17:37:48 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 17:38:21 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 17:40:29 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 17:40:34 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 17:40:38 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 17:40:45 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 17:41:09 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 18:00:37 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 18:01:28 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 18:02:03 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 18:40:54 INFO study_tracker Starting Study Tracker Pro
+2026-07-27 18:41:27 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 18:42:35 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 18:42:56 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 18:43:04 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-27 18:45:13 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-07-31 22:42:19 INFO study_tracker Starting Study Tracker Pro
+2026-08-01 00:56:21 INFO study_tracker Starting Study Tracker Pro
+2026-08-01 00:57:57 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-08-01 00:59:51 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-08-02 03:07:14 INFO study_tracker Starting Study Tracker Pro
+2026-08-02 03:07:57 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1453, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-02 03:08:44 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 448, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-08-02 03:24:46 INFO study_tracker Starting Study Tracker Pro
+2026-08-02 03:51:39 INFO study_tracker Starting Study Tracker Pro
+2026-08-03 16:46:44 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 22:47:33 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 22:49:06 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1613, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-04 22:50:42 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-04 22:50:42 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-04 22:50:46 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 473, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-08-04 22:51:31 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 22:52:23 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1613, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-04 23:14:20 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 23:15:07 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1613, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-04 23:16:34 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-04 23:16:34 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-04 23:16:45 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 473, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-08-04 23:18:06 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 23:18:44 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1613, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-04 23:19:12 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-04 23:19:12 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-04 23:19:14 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-04 23:19:14 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-04 23:19:15 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 473, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-08-04 23:36:59 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 23:37:38 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1632, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-04 23:38:11 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-04 23:38:11 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-04 23:38:13 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 473, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-08-04 23:43:18 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 23:43:43 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 23:44:04 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1632, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-04 23:46:04 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 23:46:26 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1632, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-04 23:47:19 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 23:47:54 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1632, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-04 23:50:04 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 23:50:37 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1632, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-04 23:53:44 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 23:54:03 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1632, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-04 23:57:57 INFO study_tracker Starting Study Tracker Pro
+2026-08-04 23:58:16 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1632, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-05 14:06:43 INFO study_tracker Starting Study Tracker Pro
+2026-08-05 14:07:13 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1635, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-05 14:08:37 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-05 14:08:37 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-05 14:08:37 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-05 14:08:37 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-05 14:08:38 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-05 14:08:38 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-05 14:08:52 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 473, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-08-05 14:13:25 INFO study_tracker Starting Study Tracker Pro
+2026-08-05 14:13:56 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 297, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1641, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-10 22:37:16 INFO study_tracker Starting Study Tracker Pro
+2026-08-10 22:38:35 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 286, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1641, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-10 22:41:40 ERROR study_tracker Unhandled error during _load_tasks_data
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 286, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\task.py", line 1233, in _load_tasks_data
+    progress = int(task[7] or 0) if len(task) > 7 and task[7] is not None else 0
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2026-08-10'
+2026-08-10 22:42:20 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-10 22:42:20 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-10 22:42:21 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-10 22:42:21 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-10 22:42:21 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-10 22:42:21 INFO matplotlib.category Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-08-10 23:18:24 INFO study_tracker Starting Study Tracker Pro
+2026-08-10 23:18:45 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 286, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1641, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'
+2026-08-10 23:19:21 ERROR study_tracker Unhandled error during report
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\task_manager.py", line 29, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\report.py", line 473, in _build_report_content
+    sessions = self.database.get_study_sessions_by_date_range(start_date, end_date) if self.database else []
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_study_sessions_by_date_range'. Did you mean: 'get_study_sessions_by_date'?
+2026-08-16 02:51:46 INFO study_tracker Starting Study Tracker Pro
+2026-08-16 02:52:15 ERROR study_tracker Unhandled error during _load_dashboard_statistics
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Python Study Tracker\utils.py", line 286, in worker
+    result = target(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Python Study Tracker\dashboard.py", line 1641, in _load_dashboard_statistics
+    streak_calendar = self.database.get_study_streak_calendar(today.year, today.month) if self.database else {
+                                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'year'

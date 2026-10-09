@@ -1,0 +1,13 @@
+customtkinter
+pandas
+matplotlib
+tkcalendar
+pillow
+fpdf2
+
+customtkinter==5.2.2
+matplotlib==3.9.2
+Pillow==10.4.0
+plyer
+pytest
+fpdf2
